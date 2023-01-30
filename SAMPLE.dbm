@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/data/1.9.0.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore">
+  <LUW:LUWDatabase xmi:id="_p49qMHRrEe2sCvLk9xBzpw" name="SAMPLE" vendor="DB2 UDB" version="V10.6" schemas="_p5QlIHRrEe2sCvLk9xBzpw" federated="true">
+    <eAnnotations xmi:id="_p49qMXRrEe2sCvLk9xBzpw" source="ConnectionURI">
+      <details xmi:id="_p49qMnRrEe2sCvLk9xBzpw" key="ConnectionKey" value="SAMPLE1"/>
+    </eAnnotations>
+  </LUW:LUWDatabase>
+  <DB2Model:DB2Schema xmi:id="_p5QlIHRrEe2sCvLk9xBzpw" name="ADMINISTRATOR" tables="_p5QlIXRrEe2sCvLk9xBzpw" database="_p49qMHRrEe2sCvLk9xBzpw" owner="_p5aWIHRrEe2sCvLk9xBzpw"/>
+  <LUW:LUWTable xmi:id="_p5QlIXRrEe2sCvLk9xBzpw" name="EMPLOYEE" schema="_p5QlIHRrEe2sCvLk9xBzpw" organizeBy="ROW" rowCompressionEmpty="false" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlInRrEe2sCvLk9xBzpw" name="EMPNO">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlI3RrEe2sCvLk9xBzpw" name="CHAR" length="6">
+        <eAnnotations xmi:id="_p5QlJHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlJXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlJnRrEe2sCvLk9xBzpw" name="FIRSTNME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlJ3RrEe2sCvLk9xBzpw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="12">
+        <eAnnotations xmi:id="_p5QlKHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlKXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlKnRrEe2sCvLk9xBzpw" name="MIDINIT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlK3RrEe2sCvLk9xBzpw" name="CHAR">
+        <eAnnotations xmi:id="_p5QlLHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlLXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlLnRrEe2sCvLk9xBzpw" name="LASTNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlL3RrEe2sCvLk9xBzpw" name="VARCHAR" primitiveType="CHARACTER_VARYING" length="15">
+        <eAnnotations xmi:id="_p5QlMHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlMXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlMnRrEe2sCvLk9xBzpw" name="WORKDEPT">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlM3RrEe2sCvLk9xBzpw" name="CHAR" length="3">
+        <eAnnotations xmi:id="_p5QlNHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlNXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlNnRrEe2sCvLk9xBzpw" name="PHONENO">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlN3RrEe2sCvLk9xBzpw" name="CHAR" length="4">
+        <eAnnotations xmi:id="_p5QlOHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlOXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_p5QlOnRrEe2sCvLk9xBzpw" name="JOB">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_p5QlO3RrEe2sCvLk9xBzpw" name="CHAR" length="8">
+        <eAnnotations xmi:id="_p5QlPHRrEe2sCvLk9xBzpw" source="LENGTH_SEMANTIC">
+          <details xmi:id="_p5QlPXRrEe2sCvLk9xBzpw" key="LENGTH_SEMANTIC_TYPE" value="OCTETS"/>
+        </eAnnotations>
+      </containedType>
+    </columns>
+  </LUW:LUWTable>
+  <SQLAccessControl:User xmi:id="_p5aWIHRrEe2sCvLk9xBzpw" name="SYSIBM" ownedSchema="_p5QlIHRrEe2sCvLk9xBzpw"/>
+</xmi:XMI>
